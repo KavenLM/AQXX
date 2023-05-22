@@ -1,0 +1,8 @@
+/* 引入其他css样式 */
+@import url("g.css");
+.demo1 {
+    color: red;
+    width: 100px;
+    height: 100px;
+    background-color: beige;
+}
