@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 打印除20 30 外，50以内的5的倍数的和。
+        var sum = 0;
+        // for(var i=1; i<=50; i++){
+        //     if(i != 20 && i != 30){
+        //         if(i % 5 == 0){
+        //             document.write(i+'<br/>');
+        //             sum += i;
+        //         }
+        //     }
+        // }
+        for(var i=1; i<=50; i++){
+            if(i == 20 || i == 30){
+                continue;
+            }
+            if(i % 5 == 0){
+                document.write(i+"<br/>");
+                sum += i;
+            }
+        }
+        document.write('和为：'+sum);
+    </script>
+</body>
+</html>

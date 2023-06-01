@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var name = "张三", age = 18, sex = "男", address;
+        var id = "16"
+        console.log(age);
+        console.log(typeof(name));
+        console.log(typeof(address));
+        console.log(isNaN(age));//false
+        console.log(isNaN(name));//true
+
+        id = Number(id);
+        console.log(typeof id);
+
+        name = Number(name);
+        console.log(name);
+
+        var topValue = "28px";
+        console.log(topValue);
+        topValue = parseInt(topValue);
+        console.log(topValue);
+
+        var c = "abc123";
+        console.log(parseInt(c));
+        console.log("-------------------------------------");
+
+        console.log(parseInt("0xf",16));   
+
+        console.log("-------------------------------------");
+
+        var ids = NaN;
+        console.log(typeof ids);
+        console.log(Boolean(ids));
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

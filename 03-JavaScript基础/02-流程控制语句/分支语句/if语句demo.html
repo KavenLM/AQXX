@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //判断密码的长度
+        var password = prompt("请输入您的密码：");
+        if(password.length < 6){
+            alert("密码不足6位")
+        }else{
+            if(isNaN(password)){
+                alert("密码必须为数字")
+            }else{
+                alert(password)
+            }           
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
